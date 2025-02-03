@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("%s", welcome());
+    float a;
+    scanf("%f", &a);
+    printf("%f",a);
     return 0;
 }
