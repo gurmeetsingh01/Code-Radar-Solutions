@@ -6,7 +6,7 @@ int main() {
     if (a & (1 << b)) {
         printf("1");
     } else{
-        orintf("0");
+        printf("0");
     }
     return 0;
 }
