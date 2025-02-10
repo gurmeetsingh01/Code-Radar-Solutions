@@ -2,8 +2,9 @@
 
 int main() {
     char a;
+    scanf("%c", &a);
     if(isalpha(a)){
-        if(isupper(a)){
+        if (isupper(a)){
             if((a == 'A') || (a== 'E') || (a == 'I') || (a == 'O') || (a == 'U')){
                 printf("Vowel");
             } else{
