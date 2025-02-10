@@ -5,10 +5,6 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     if(a+b>c){
         printf("Valid");
-    }else if(a+c>b){
-        printf("Valid");
-    }else if(b+c>a){
-        printf("Valid");
     }else{
         printf("Invalid");
     }
