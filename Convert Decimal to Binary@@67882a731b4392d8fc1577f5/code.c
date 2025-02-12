@@ -11,7 +11,7 @@ void decimalToBinary(int n){
         }
     }
     if (!flag) {
-        printf("0";)
+        printf("0");
     }
 }
 int main(){
