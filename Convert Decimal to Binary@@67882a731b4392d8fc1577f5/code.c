@@ -15,8 +15,8 @@ void decimalToBinary(int n){
     }
 }
 int main(){
-    int a;
-    scanf("%d", &a);
-    decimalToBinary(a);
+    int n;
+    scanf("%d", &n);
+    decimalToBinary(n);
     return 0;
 }
