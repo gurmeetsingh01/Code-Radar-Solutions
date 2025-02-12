@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 int main(){
-    int a, b, e;
+    int a, b, e=0;
     char c;
     scanf("%d %d %c", &a, &b &c);
     if(c == '+'){
