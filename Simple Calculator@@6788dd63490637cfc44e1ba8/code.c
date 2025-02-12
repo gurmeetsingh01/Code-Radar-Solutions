@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main(){
+    int a, b, e;
+    char c;
+    scanf("%d %d %c", &a, &b &c);
+    if(c == '+'){
+        e=a+b;
+        printf("%d", e);
+    }else if(c == '-'){
+        e=a-b;
+        printf("%d", e);
+    }else if(c == '*'){
+        e=a*b;
+        printf("%d", e);
+    }else if(c == '/'){
+        if (b == 0){
+            printf("error");
+        }else{
+            e=a/b;
+            printf("%d", e);
+        }
+    }else{
+        printf("error");
+    }
+    return 0;
+}
