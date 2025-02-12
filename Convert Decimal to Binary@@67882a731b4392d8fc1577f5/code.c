@@ -18,5 +18,5 @@ int main(){
     int n;
     scanf("%d", &n);
     decimalToBinary(n);
-    return 0
+    return 0;
 }
