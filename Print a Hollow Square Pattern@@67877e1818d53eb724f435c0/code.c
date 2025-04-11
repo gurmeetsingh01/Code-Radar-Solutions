@@ -7,11 +7,10 @@ int main(){
             if(i==1||i==a || j==1 || j==a){
                 printf("*");
             }else{
-                for(int k=1; k<=(i-2); k++){
+            
                     printf(" ");
                 }
-            printf("*%d*\n", k);
-            }
+            
         }
         printf("\n");
     }
